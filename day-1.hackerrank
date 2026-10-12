@@ -1,0 +1,90 @@
+Day 1 – HackerRank Python Practice
+
+Date:12 October 2026  
+Platform:HackerRank  
+Language:Python 3  
+Problems solved:4
+
+
+Problem 1: Say "Hello, World!" With Python
+Problem: Print `Hello, World!` to the output.
+
+Concept:`print()` function.
+
+**My approach:Use `print()` to display the required message.
+
+Solution:
+
+print("Hello, World!")
+
+
+Output:
+Hello, World!
+
+Problem 2: Python If-Else
+
+Problem:Given an integer `n`, apply the following rules:
+
+- If `n` is odd, print `Weird`.
+- If `n` is even and between 2 and 5 inclusive, print `Not Weird`.
+- If `n` is even and between 6 and 20 inclusive, print `Weird`.
+- If `n` is even and greater than 20, print `Not Weird`.
+
+Concept:`if`, `elif`, `else`, and conditional operators.
+My approach: Check whether the number is odd or even, then check its range.
+
+Solution:
+
+n = int(input().strip())
+
+if n % 2 != 0:
+    print("Weird")
+elif 2 <= n <= 5:
+    print("Not Weird")
+elif 6 <= n <= 20:
+    print("Weird")
+else:
+    print("Not Weird")
+
+
+Problem 3: Arithmetic Operators
+
+Problem: Given two integers, `a` and `b`, print their sum, difference (`a - b`), and product on separate lines.
+
+Concept: Arithmetic operators.
+
+My approach: Read two integers and perform the three operations in the required order.
+
+Solution:
+a = int(input())
+b = int(input())
+
+print(a + b)
+print(a - b)
+print(a * b)
+
+
+Problem 4: Python: Division
+
+Problem: Given two integers, `a` and `b`, print their integer division and then their floating-point division on separate lines.
+
+Concept:`//` and `/` operators.
+My approach: Use `//` for integer division and `/` for floating-point division.
+
+Solution:
+a = int(input())
+b = int(input())
+
+print(a // b)
+print(a / b)
+
+
+
+Day 1 Reflection
+
+- Practiced printing output.
+- Learned conditional statements and number ranges.
+- Practiced basic arithmetic operations.
+- Understood the difference between integer and floating-point division.
+
+**Next goal:** Continue practicing Python fundamentals and improve problem-solving logic.
